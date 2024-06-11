@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  background-color: rgb(47, 49, 48);
+  color: aliceblue;
+  .contact {
+    color: aliceblue;
+  }
+  .logo {
+    font-size: 25px;
+  }
+  .line {
+    .link {
+      text-decoration: none;
+      display: inline-block;
+      color: aliceblue;
+      &:not(:last-child) {
+        margin-right: 15px;
+      }
+    }
+  }
+}

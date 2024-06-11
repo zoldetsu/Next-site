@@ -1,7 +1,10 @@
 import React from "react";
-
+import classes from "./The.Footer.module.scss";
 function TheFooter() {
-  return <h3>By Devicorn</h3>;
+  return (
+    <footer className={classes.footer}>
+      <h3>devicorn</h3>
+    </footer>
+  );
 }
-
 export default TheFooter;

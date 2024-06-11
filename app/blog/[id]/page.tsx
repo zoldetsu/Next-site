@@ -26,7 +26,8 @@ export default async function Blog({ params: { id } }: Props) {
   const post = await getData(id);
   return (
     <>
-      <h1>{post.title}</h1>;<p>{post.body}</p>
+      <h1>{post.title}</h1>
+      <p>{post.body}</p>
     </>
   );
 }
